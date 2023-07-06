@@ -1,4 +1,4 @@
-export default function Card({data, quizLength, quizId}){
+export default function Card({data, quizLength, quizId, handleAnswer}){
     
     
     return(
@@ -9,7 +9,7 @@ export default function Card({data, quizLength, quizId}){
             {data[quizId].options.map(
                 (e, index) => {
                     return(
-                    <li key={index} onClick={"hello"}> {e.answer}</li>
+                    <li key={index} onClick={handleAnswer}> {e.answer}</li>
                     )
                 }
             )}
