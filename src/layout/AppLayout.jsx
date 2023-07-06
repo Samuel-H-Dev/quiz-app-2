@@ -5,11 +5,11 @@ export default function AppLayout({children}){
 
 
     return(
-        <>
-        <Nav />
+        <div id="main-container">
+        {/* <Nav /> */}
         {children}
         <Footer />
-        </>
+        </div>
 
     )
 }

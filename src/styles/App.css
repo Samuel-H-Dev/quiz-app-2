@@ -4,17 +4,40 @@ nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 0;
+  justify-content: space-around;
   margin-top: -10px;
-  padding: 10px;
-  background-color: rgba(255, 228, 196, 0.651);
+  padding: 10px; 
 }
+nav ul li{
+  border: 1px dotted black;
+  background-color: rgba(240, 248, 255, 0.695);
+  padding: 1%;
+  border-radius: 20%;
+  
+}
+nav ul li:hover{
+  background-color:rgba(21, 21, 50, 0.544);
+  color: rgb(11, 11, 11);
+
+}
+
+
+
 
 h1 , h2, h3, p, li {
   font-family: 'Heebo', sans-serif;;
 }
 
 body{
-  background-color: antiquewhite;
+  background-image: linear-gradient(
+    180deg,
+    aqua,
+    rgb(48, 57, 117));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+#main-container{
+  width: 80%;
+  margin: 0 auto;
 }

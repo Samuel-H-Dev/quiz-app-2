@@ -6,7 +6,6 @@ export default function Quiz(){
 
     return(
         <AppLayout>
-            <h1>Quiz</h1>
                 <QuizApp />
         </AppLayout>
     )
