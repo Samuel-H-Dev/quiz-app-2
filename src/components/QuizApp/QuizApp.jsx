@@ -45,7 +45,6 @@ export default function QuizApp(){
             handleAnswer={handleAnswer}
             />
         }
-        <h3>Quiz App</h3>
         </>
     )
 }
