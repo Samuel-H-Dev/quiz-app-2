@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Guess The Movie",
+    "image": "avenger.webp",
     "options": [
       {
         "answer": "Avengers",
@@ -27,7 +27,7 @@
 
   {
     "id": 2,
-    "question": "Guess The Movie",
+    "image": "goonies.webp",
     "options": [
       {
         "answer": "Little Rascal",
@@ -54,7 +54,7 @@
 
 {
   "id": 3,
-  "question": "Guess The Movie",
+  "image": "ironman.jpg",
   "options": [
     {
       "answer": "Miss Pot",
@@ -80,7 +80,7 @@
 
 {
   "id": 4,
-  "question": "Guess The Movie",
+  "image": "matrix.jpg",
   "options": [
     {
       "answer": "Man in Black",
@@ -106,7 +106,7 @@
 
 {
   "id": 5,
-  "question": "Guess The Movie",
+  "image": "shrek.jpg",
   "options": [
     {
       "answer": "Soylent Green",
