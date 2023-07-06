@@ -9,7 +9,7 @@ export default function Card({data, quizLength, quizId, handleAnswer}){
             {data[quizId].options.map(
                 (e, index) => {
                     return(
-                    <li key={index} onClick={handleAnswer}> {e.answer}</li>
+                    <li key={index} onClick={() => {handleAnswer(e.isCorrect)}}> {e.answer}</li>
                     )
                 }
             )}

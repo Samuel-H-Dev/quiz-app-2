@@ -14,8 +14,8 @@ export default function QuizApp(){
     const [showResult, setShowResult] = useState(false);
     
     const handleAnswer = (isCorrect) =>{
-        isCorrect && setScore(score + 1);
-    
+        if (isCorrect) setScore(score + 1)
+
         const newQuizId = quizId + 1;
     
         (newQuizId < quizLength)
