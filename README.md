@@ -6,7 +6,6 @@ This is a movie quiz application built using React, JSX, props, and CSS. The app
 
 - Display multiple-choice questions with four options each.
 - Keep track of the user's score as they answer the questions.
-- Provide immediate feedback on the correctness of the chosen answer.
 - Display the final score and the number of correct and incorrect answers.
 - Allow users to retake the quiz.
 
@@ -15,3 +14,7 @@ This is a movie quiz application built using React, JSX, props, and CSS. The app
 - react js
 - css
 - jsx
+
+## Website
+ 
+[link to site](https://movie-trivia-quiz-webpage.web.app/)
